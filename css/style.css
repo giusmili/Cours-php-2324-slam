@@ -90,7 +90,11 @@ section > p {
 section address{
     padding: 0 1.0rem;
 }
+footer{
+    background: transparent;
+}
 footer p{
+    background: inherit;
     border: 0;
     text-align: center;
 }
