@@ -96,7 +96,10 @@ section > p {
     color: red;
 }
 section address{
-    padding: 0 1.0rem;
+    padding: 2rem 0;
+}
+section address{
+    padding: 1rem;
 }
 footer{
     background: transparent;
