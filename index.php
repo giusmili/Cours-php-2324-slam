@@ -4,7 +4,7 @@
 
 <!DOCTYPE html>
 
-<html lang="<?= $_lang[0] ?>">
+<html lang="<?= $_user_new->_lang[0] ?>">
 
 <?php
 	require_once "./include/head.inc.php";
@@ -34,7 +34,7 @@
 		<section>
 			<h2>Nous sommes le : <?php print $_date_now; ?></h2>
 			<p>
-				Le navigateur est : <?= $_user_agent ?><br>
+				Le navigateur est : <?=  User::userAgent() ?><br>
 				Votre adress IP est le :127.0.0.1
 				<br>Signature serveur
 				
@@ -46,7 +46,7 @@
 
 	</pre> -->
 	<footer>
-		<p>&copy; - MIT - <?= $_date_object->format("Y") ?></p>
+		<p>&copy; - MIT - <?= User::dateNow() ?></p>
 	</footer>
 	
 	
