@@ -42,9 +42,14 @@
 			<?= $_signature_server ?>
 		</section>
 	</main>
-	<!-- <pre>
+	
+		<?php
+			
+			include_once "liste.inc.php";
 
-	</pre> -->
+		?>
+
+	
 	<footer>
 		<p>&copy; - MIT - <?= User::dateNow() ?></p>
 	</footer>

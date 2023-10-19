@@ -14,6 +14,12 @@
         $_date_object = new dateTime();
         return $_date_object->format("Y");
     }
+    static $_tab = [
+        "Nom" => "Ledorf",
+        "Prénom" => "Rasmus",
+        "date" => 1994,
+        "mail" => "l.rasmus@php.net"
+    ];
     static function userAgent(){
           $_user_agent = $_SERVER["HTTP_USER_AGENT"];
 
